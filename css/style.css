@@ -1,0 +1,112 @@
+:root {
+	--body-font-size: 30px;
+}
+
+.logo {
+	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
+	height: 60px;
+}
+
+.top-nav {
+	background: white;
+	overflow: hidden;
+	position: static;
+	margin: 0;
+	height: 60px;
+	padding-top: 7px;
+}
+
+.top-nav a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.top-nav a:hover {
+	color: green;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.stor-knapp {
+	margin: 20px;
+	padding: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.stor-knapp a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin: 20px;
+	border: 1.5px solid green;
+	color: green;
+	text-decoration: none;
+	border-radius: 20px;
+	font-size: 20px;
+}
+
+.stor-knapp a:hover {
+	background-color: green;
+	color: white;
+}
+p {
+	margin: 20px;
+}
+
+.blocks {
+	display: flex;
+	justify-content: center;
+}
+
+.block {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	border-radius: 20px;
+	margin: 10px 68px 10px 68px;
+	padding: 20px 20px 20px 20px;
+}
+
+.nr-1 {
+	background-color: rgb(197, 51, 51);
+}
+
+.nr-1:hover {
+	background-color: rgba(197, 51, 51, 0.8);
+}
+
+.nr-2 {
+	background-color: green;
+}
+
+.nr-2:hover {
+	background-color: rgba(0, 128, 0, 0.8);
+}
+
+.blocks p {
+	text-decoration: underline;
+}
+
+.read-more {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.block h2 {
+	margin-top: 30px;
+}
