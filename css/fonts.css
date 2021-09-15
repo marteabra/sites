@@ -1,25 +1,49 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://use.typekit.net/hpj4dgp.css");
 
 body {
+	font-family: degular-text, sans-serif;
+}
+
+.nav a {
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.stor-knapp a {
+	font-weight: 200;
+	font-size: 20px;
+}
+
+p {
 	font-family: "montserrat", sans-serif;
 	font-weight: 200;
 }
 
-.top-nav a {
-	font-weight: 300;
-	font-size: 22px;
+h1 {
+	text-align: center;
+	font-size: 40px;
 }
 
-.stor-knapp a {
-	font-weight: 300;
-	font-size: 30px;
+h1 h2 {
+	font-family: degular-text, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
-h1 h2 h3 {
-	font-family: "Bebas Neue", cursive;
+h3 {
+	font-family: "montserrat", sans-serif;
+	font-weight: 300;
 }
 
 .block h2 {
-	font-weight: bold;
+	font-family: degular-text, sans-serif;
+	font-weight: 700;
+	font-style: bold;
+	font-size: 35px;
+}
+
+footer p {
+	font-family: degular-text, sans-serif;
 }
